@@ -1,6 +1,6 @@
 /* Define regular font */
 @font-face {
-    font-family: 'GeomanistRegular';
+    font-family: 'Geomanist';
     src: local('Geomanist-Regular'), url('./Fonts/Geomanist-Regular.ttf') format('truetype'),
         url('./Fonts/Geomanist-Regular.otf') format('opentype');
     font-weight: 400;
@@ -9,7 +9,7 @@
 
 /* Define bold font */
 @font-face {
-    font-family: 'GeomanistBold';
+    font-family: 'Geomanist';
     src: local('Geomanist-Bold'), url('./Fonts/Geomanist-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
@@ -17,7 +17,7 @@
 
 /* Define light font */
 @font-face {
-    font-family: 'GeomanistLight';
+    font-family: 'Geomanist';
     src: local('Geomanist-Light'), url('./Fonts/Geomanist-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
@@ -25,7 +25,7 @@
 
 /* Define medium font */
 @font-face {
-    font-family: 'GeomanistMedium';
+    font-family: 'Geomanist';
     src: local('Geomanist-Medium'), url('./Fonts/Geomanist-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
@@ -33,7 +33,7 @@
 
 /* Define thin font */
 @font-face {
-    font-family: 'GeomanistThin';
+    font-family: 'Geomanist';
     src: local('Geomanist-Thin'), url('./Fonts/Geomanist-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
@@ -41,36 +41,29 @@
 
 /* Define ultra font */
 @font-face {
-    font-family: 'GeomanistUltra';
+    font-family: 'Geomanist';
     src: local('Geomanist-Ultra'), url('./Fonts/Geomanist-Ultra.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'GeomanistRegularItalic';
+    font-family: 'Geomanist';
     src: local('Geomanist-Regular-Italic'), url('./Fonts/Geomanist-Regular-Italic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'GeomanistThin';
-    src: local('Geomanist-Thin'), url('./Fonts/Geomanist-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
 /* LibreBaskerville */
 @font-face {
-    font-family: 'LibreBaskervilleRegular';
+    font-family: 'LibreBaskerville';
     src: local('LibreBaskerville-Regular'), url('./Fonts/LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'LibreBaskervilleBold';
+    font-family: 'LibreBaskerville';
     src: local('LibreBaskerville-Bold'), url('./Fonts/LibreBaskerville-Bold.ttf') format('opentype');
     font-weight: bold;
     font-style: normal;
@@ -300,6 +293,7 @@ select:focus {
     padding: 40px 0;
     position: relative;
     color: var(--primary);
+    font-family: "Geomanist", sans-serif;
 }
 
 .banner h1::after {
@@ -1038,7 +1032,7 @@ select:focus {
 
 .QNA .accordion-body {
     color: var(--secondary);
-    font-weight: 300;
+    font-weight: 400;
     padding-top: 0;
     font-size: 14px;
     width: 74%;
