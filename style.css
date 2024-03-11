@@ -1533,7 +1533,7 @@ select:focus {
 
 /* Media Query */
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 250px) and (max-width: 780px) {
     html, body {
         overflow-x: hidden !important;
     }
@@ -2015,6 +2015,7 @@ select:focus {
     .swiper-slide .card-head {
         padding-top: 20px;
         padding-bottom: 20px;
+        font-size: 15px;
     }
 
     .clients .btn-grps {
@@ -2207,7 +2208,7 @@ select:focus {
     }
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (min-width: 781px) and (max-width: 990px) {
     html, body {
         overflow-x: hidden !important;
     }
