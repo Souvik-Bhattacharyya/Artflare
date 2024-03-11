@@ -280,7 +280,7 @@ select:focus {
     left: 0;
     width: 100vw;
     height: 100%;
-    background-image: url(./Assets/banner.png);
+    background-image: url(./Assets/banner.webp);
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -500,7 +500,7 @@ select:focus {
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(./Assets/contactBg.png);
+    background-image: url(./Assets/contactBg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
