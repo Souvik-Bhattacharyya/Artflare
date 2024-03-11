@@ -1,74 +1,4 @@
-/* Define regular font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Regular'), url('./Fonts/Geomanist-Regular.ttf') format('truetype'),
-        url('./Fonts/Geomanist-Regular.otf') format('opentype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-/* Define bold font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Bold'), url('./Fonts/Geomanist-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-/* Define light font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Light'), url('./Fonts/Geomanist-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-/* Define medium font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Medium'), url('./Fonts/Geomanist-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-/* Define thin font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Thin'), url('./Fonts/Geomanist-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-/* Define ultra font */
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Ultra'), url('./Fonts/Geomanist-Ultra.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Geomanist';
-    src: local('Geomanist-Regular-Italic'), url('./Fonts/Geomanist-Regular-Italic.otf') format('opentype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-/* LibreBaskerville */
-@font-face {
-    font-family: 'LibreBaskerville';
-    src: local('LibreBaskerville-Regular'), url('./Fonts/LibreBaskerville-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'LibreBaskerville';
-    src: local('LibreBaskerville-Bold'), url('./Fonts/LibreBaskerville-Bold.ttf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-
+@import url(./Fonts/fonts.css);
 
 /* Variables */
 :root {
@@ -135,7 +65,7 @@ a {
 
 .header h6 {
     font-size: 18px;
-    font-family: "LibreBaskervilleRegular";
+    font-family: "LibreBaskerville";
     background: linear-gradient(to right, var(--pink), var(--blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -372,7 +302,7 @@ select:focus {
     background: linear-gradient(to right, var(--pink), var(--blue));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-family: "LibreBaskervilleRegular";
+    font-family: "LibreBaskerville";
     width: fit-content;
     font-size: 18px;
 }
@@ -3015,6 +2945,10 @@ select:focus {
         bottom: -65%;
         border-right: 2px dashed #e8d80f;
         border-top: 0;
+    }
+
+    .grid-items:last-child .number:before{
+        border-right: 2px dashed transparent;
     }
 
     .grid-items {
