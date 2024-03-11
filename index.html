@@ -1100,9 +1100,13 @@
         var swiper = new Swiper(".mySwiper", {
             slidesPerView: 1,
             spaceBetween: 30,
-            centeredSlides: true,
+            centeredSlides: false,
             grabCursor: true,
-            loop: true,
+            rewind: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
             navigation: {
                 nextEl: ".right",
                 prevEl: ".left",
