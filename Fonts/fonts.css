@@ -1,8 +1,8 @@
 /* Define regular font */
 @font-face {
     font-family: 'GeomanistRegular';
-    src: local('Geomanist-Regular'), url('Geomanist-Regular.ttf') format('truetype'),
-        url('Geomanist-Regular.otf') format('opentype');
+    src: local('Geomanist-Regular'), url('./Geomanist-Regular.ttf') format('truetype'),
+        url('./Geomanist-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
@@ -10,7 +10,7 @@
 /* Define bold font */
 @font-face {
     font-family: 'GeomanistBold';
-    src: local('Geomanist-Bold'), url('Geomanist-Bold.ttf') format('truetype');
+    src: local('Geomanist-Bold'), url('./Geomanist-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -18,7 +18,7 @@
 /* Define light font */
 @font-face {
     font-family: 'GeomanistLight';
-    src: local('Geomanist-Light'), url('Geomanist-Light.ttf') format('truetype');
+    src: local('Geomanist-Light'), url('./Geomanist-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -26,7 +26,7 @@
 /* Define medium font */
 @font-face {
     font-family: 'GeomanistMedium';
-    src: local('Geomanist-Medium'), url('Geomanist-Medium.ttf') format('truetype');
+    src: local('Geomanist-Medium'), url('./Geomanist-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
@@ -34,7 +34,7 @@
 /* Define thin font */
 @font-face {
     font-family: 'GeomanistThin';
-    src: local('Geomanist-Thin'), url('Geomanist-Thin.ttf') format('truetype');
+    src: local('Geomanist-Thin'), url('./Geomanist-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -42,21 +42,21 @@
 /* Define ultra font */
 @font-face {
     font-family: 'GeomanistUltra';
-    src: local('Geomanist-Ultra'), url('Geomanist-Ultra.ttf') format('truetype');
+    src: local('Geomanist-Ultra'), url('./Geomanist-Ultra.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'GeomanistRegularItalic';
-    src: local('Geomanist-Regular-Italic'), url('Geomanist-Regular-Italic.otf') format('opentype');
+    src: local('Geomanist-Regular-Italic'), url('./Geomanist-Regular-Italic.otf') format('opentype');
     font-weight: 900;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'GeomanistThin';
-    src: local('Geomanist-Thin'), url('Geomanist-Thin.ttf') format('truetype');
+    src: local('Geomanist-Thin'), url('./Geomanist-Thin.ttf') format('truetype');
     font-weight: 100;
     font-style: normal;
 }
@@ -64,14 +64,14 @@
 /* LibreBaskerville */
 @font-face {
     font-family: 'LibreBaskervilleRegular';
-    src: local('LibreBaskerville-Regular'), url('LibreBaskerville-Regular.ttf') format('truetype');
+    src: local('LibreBaskerville-Regular'), url('./LibreBaskerville-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'LibreBaskervilleBold';
-    src: local('LibreBaskerville-Bold'), url('LibreBaskerville-Bold.ttf') format('opentype');
+    src: local('LibreBaskerville-Bold'), url('./LibreBaskerville-Bold.ttf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
