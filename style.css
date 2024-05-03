@@ -2895,7 +2895,7 @@ select:focus {
     }
 }
 
-@media screen (min-width: 1400px){
+@media (max-width: 1400px){
     .RegisterForm{
         width: 80%;
     }
