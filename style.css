@@ -2895,6 +2895,12 @@ select:focus {
     }
 }
 
+@media screen (min-width: 1200px){
+    .RegisterForm{
+        width: 80%;
+    }
+}
+
 @media screen and (min-width: 991px) and (max-width: 1191px) {
     .banner h1 {
         font-size: 75px;
